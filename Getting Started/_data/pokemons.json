@@ -1,0 +1,10 @@
+[
+    {
+        "name" : "Pikachu",
+        "power" : "Electricity"
+    },
+    {
+        "name" : "Charizard",
+        "power" : "Fire"
+    }
+]

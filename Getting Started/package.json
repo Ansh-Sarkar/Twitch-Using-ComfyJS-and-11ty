@@ -1,0 +1,19 @@
+{
+  "name": "11ty",
+  "version": "1.0.0",
+  "description": "eleventy implementation",
+  "main": "index.js",
+  "scripts": {
+      "start" : "eleventy --serve",
+      "build" : "eleventy"
+  },
+  "keywords": [
+    "11th",
+    "eleventy"
+  ],
+  "author": "ansh sarkar",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}

@@ -1,0 +1,11 @@
+---
+pagination:
+  data: pokemons
+  size: 1
+  alias: pokemon
+permalink: "pokemons/{{ pokemon.name | slug}}/"
+tags: pokemonPage
+title: {{ pokemon.name }}
+---
+<p> Name: {{ pokemon.name }} </p>
+<p> Power: {{ pokemon.power }} </p>

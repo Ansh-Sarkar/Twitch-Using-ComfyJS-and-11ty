@@ -1,0 +1,7 @@
+<script src = "https://cdn.jsdeliver.net/npm/comfy.js@latest/dist/comfy.min.js"></script>
+<script>
+    const twitchUsername = "{{ stream.twitchUsername }}";
+    const chatCommands = {{ stream.chatCommands | printJs | safe }};
+    {# including comfy script files using nunjucks #}
+    {% include "comfy/script.js" %}
+</script>
